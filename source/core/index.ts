@@ -1572,7 +1572,7 @@ export default class Request extends Duplex implements RequestEvents<Request> {
 		if (options.headers === defaults?.headers) {
 			options.headers = {...options.headers};
 		} else {
-			options.headers = lowercaseKeys({...(defaults?.headers), ...options.headers});
+			options.headers = {...(defaults?.headers), ...options.headers};
 		}
 
 		// Disallow legacy `url.Url`

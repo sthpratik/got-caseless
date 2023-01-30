@@ -1,10 +1,10 @@
 {
-	"name": "got",
-	"version": "11.8.6",
+	"name": "gotcaselesscjs",
+	"version": "11.8.8",
 	"description": "Human-friendly and powerful HTTP request library for Node.js",
 	"license": "MIT",
-	"repository": "sindresorhus/got",
-	"funding": "https://github.com/sindresorhus/got?sponsor=1",
+	"repository": "sthpratik/got-caseless",
+	"funding": "https://github.com/sthpratik/got-caseless?sponsor=1",
 	"main": "dist/source",
 	"engines": {
 		"node": ">=10.19.0"
@@ -12,7 +12,7 @@
 	"scripts": {
 		"test": "xo && npm run build && nyc --reporter=html --reporter=text ava",
 		"release": "np",
-		"build": "del-cli dist && tsc",
+		"build": "",
 		"prepare": "npm run build"
 	},
 	"files": [
@@ -73,7 +73,6 @@
 		"benchmark": "^2.1.4",
 		"coveralls": "^3.1.0",
 		"create-test-server": "^3.0.1",
-		"del-cli": "^3.0.1",
 		"delay": "^4.4.0",
 		"express": "^4.17.1",
 		"form-data": "^3.0.0",

@@ -42,7 +42,7 @@ const defaults: InstanceDefaults = {
 		},
 		timeout: {},
 		headers: {
-			'user-agent': 'got (https://github.com/sindresorhus/got)'
+			'User-Agent': 'got (https://github.com/sindresorhus/got)'
 		},
 		hooks: {
 			init: [],
